@@ -26,7 +26,7 @@ namespace PalAnettTagokNyilvantartasa
         private static void tagTorlese(int azon)
         {
             
-            command.CommandText = $"DELETEFROM `ugyfel` WHERE azon = '{azon}'";
+            command.CommandText = $"DELETE FROM `ugyfel` WHERE azon = '{azon}'";
             command.Parameters.Clear();
             try
             {
