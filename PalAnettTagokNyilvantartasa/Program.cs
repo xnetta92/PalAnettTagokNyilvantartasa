@@ -51,7 +51,7 @@ namespace PalAnettTagokNyilvantartasa
                 {
                     while (dr.Read())
                     {
-                        Tag uj = new Tag(dr.GetInt32("azon"), dr.GetString("nev"), dr.GetInt32("szulev"), dr.GetInt32("iszam"), dr.GetString("orsz"));
+                        Tag uj = new Tag(dr.GetInt32("azon"), dr.GetString("nev"), dr.GetInt32("szulev"), dr.GetInt32("irszam"), dr.GetString("orsz"));
                         tagList.Add(uj);
                     }
                 }

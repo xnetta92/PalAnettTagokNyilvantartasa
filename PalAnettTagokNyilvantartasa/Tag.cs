@@ -12,15 +12,15 @@ namespace PalAnettTagokNyilvantartasa
         public int azon;
         public string nev;
         public int szulev;
-        public int iszam;
+        public int irszam;
         public string orsz;
 
-        public Tag(int azon, string nev, int szulev, int iszam, string orsz)
+        public Tag(int azon, string nev, int szulev, int irszam, string orsz)
         {
             this.azon = azon;
             this.nev = nev;
             this.szulev = szulev;
-            this.iszam = iszam;
+            this.irszam = irszam;
             this.orsz = orsz;
         }
         public override string ToString()
